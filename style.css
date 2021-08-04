@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #055371;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 75px;
+    padding-left: 50px;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   
+}
+
+nav a {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 15px;
+}
+
+#aboutMe,
+#work,
+#contact {
+    display: flex;
+    margin: 20px 15px 20px 15px;
+}
+
+#aboutMe aside {
+    color: #055371;
+    font-size: 30px;
+    flex-wrap: wrap;
+    border-right-style: solid;
+    border-color: #055371;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding: 30px;
+    border-width: 5px;
+}
+
+#aboutMeText {
+    color: #055371;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+#work aside {
+    color: #055371;
+    font-size: 30px;
+    flex-wrap: wrap;
+    border-right-style: solid;
+    border-color: #055371;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding: 30px 48px 30px 30px;
+    border-width: 5px;
+}
+
+#workCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 20px 0px 20px;
+    border-style: none;
+    border-color: #055371;
+    border-radius: 2px;
+}
+
+.mainCard {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #055371;
+    margin-bottom: 5px;
+}
+
+.mainCard img {
+    display: flex;
+    justify-content: center;
+    max-width:100%;
+    height:auto;
+    opacity:80%;
+
+}
+
+.lowerCard {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 45%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #055371;
+    margin-bottom: 5px;
+}
+
+.lowerCard img {
+    display: flex;
+    justify-content: center;
+    max-width:100%;
+    height:auto;
+    opacity:80%;
+}
+
+.cardName {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #055371;
+}
+
+#contact aside {
+    color: #055371;
+    font-size: 25px;
+    flex-wrap: wrap;
+    border-right-style: solid;
+    border-color: #055371;
+    margin-top: 25px;
+    padding: 30px 38px 30px 0px;
+    border-width: 5px;
+}
+
+#contact nav ul {
+    display: flex;
+    align-content: center;
+    list-style: none;
+ }
+
+ #contact nav ul li {
+    font-size: 20px;
+    color: #055371;
+    margin: 15px;
+}
+
+#contact nav ul a {
+    font-size: 20px;
+    color: #055371;
+    margin: 15px;
+}
+
+
+
